@@ -11,8 +11,8 @@ namespace WpfApp4
 {
     public class Admin
     {
-        private SQLiteConnection conn;
-        private SQLiteCommand cmd;
+        public SQLiteConnection conn;
+        public SQLiteCommand cmd;
         public Admin()
         {
             conn = new SQLiteConnection("data source=products.db3");
